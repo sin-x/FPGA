@@ -53,5 +53,71 @@ always @ (gray)
         bin[i] = ^(gray >> i);
 ```
 
+**格雷码计数器**  
 
+![gray_counter](./pics/gray_counter.png)
+
+```verilog
+module gray_counter(clk, gray, inr, reset_n)
+    parameter SIZE = 4;
+    input clk, inr, reset_n;
+    output [SIZE-1] gray;
+    reg [SIZE-1] gray_temp, gray, bin_temp, bin;
+    integer i;
+    
+    always @ (gray or inr)
+        begin: gray_bin_gray
+            for (i = 0; i < SIZE; i = i + 1)
+                bin[i] = ^(gray >> i);
+            bin_temp = bin + inr;
+            gray_temp = (bin_temp >> 1) ^ bin_temp;
+        end
+endmodule
+```
+
+### 异步FIFO
+
+异步FIFO原理如下图所示：
+
+<img src="./pics/async_fifo.png" alt="async_fifo" style="zoom:75%;" />
+
+**FIFO空条件的产生**
+
+当读指针与同步后的写指针相匹配时，FIFO为空，这时应该在FIFO的读时钟域内马上产生FIFO空标记。
+
+```verilog
+always @ (posedge rclk or negedge reset_n)
+    begin: fifo_empty_gen
+        if(~reset_n)
+            fifo_empty <= 1'b1;
+        else
+            fifo_empty <= (rd_gtemp == wr_ptr_sync);
+    end
+```
+
+**FIFO满条件的产生**  
+
+在以下三个条件都为真时，FIFO满标志置起。
+
+1. 同步后的读指针(rd_ptr_sync)的MSB应该与写指针(wr_gtemp)的下一个格雷码值的MSB不同，wr_gtemp将寄存到wr_ptr中。
+2. 写时钟域中下一个格雷码计数值对应二进制码的第二个MSB(wr_gtemp)，应该与同步到写时钟域内读指针的MSB相同(rd_ptr_sync)。
+3. 两个指针中所有省略掉的LSB都应该匹配。
+
+*注意*
+
+上面第2点中的第二个MSB通过将指针前两个MSB异或后计算出来。（如果MSB为高，对两个MSB进行异或操作会使第二个MSB取反。）
+
+```verilog
+wire rd_2nd_msb = rd_ptr_sync[SIZE] ^ rd_ptr_sync[SIZE-1];
+wire wr_2nd_msb = wr_gtemp[SIZE] ^ wr_gtem[SIZE-1];
+always @ (posedge wclk or negedge reset_n)
+    begin: fifo_full_gen
+        if(~reset_n)
+            fifo_full <= 1'b0;
+        else
+            fifo_full <= ((wr_gtemp[SIZE] != rd_ptr_sync[SIZE]) &&
+                          (rd_2nd_msb == wr_2nd_msb) &&
+                          (wr_gtemp[SIZE-2:0] == rd_ptr_sync[SIZE-2:0]));
+    end
+```
 

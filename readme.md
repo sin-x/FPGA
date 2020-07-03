@@ -9,7 +9,7 @@
 
 ### 建立时间保持时间
 
-[建立时间保持时间整理](./source/建立时间保持时间.md)
+[建立时间保持时间笔记](./source/建立时间保持时间.md)
 
 [建立时间保持时间关系详解](https://www.cnblogs.com/lilto/p/9581143.html)
 
@@ -24,3 +24,5 @@
 [FPGA跨时钟域的处理方法](https://blog.csdn.net/emperor_strange/article/details/82491085?utm_source=app)
 
 [《硬件架构的艺术》](./source/硬件架构的艺术.pdf)第三章
+
+[异步FIFO资料笔记](./source/异步FIFO.md)
