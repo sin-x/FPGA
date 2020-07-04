@@ -36,6 +36,7 @@
 
 ### 题目
 
-[FPGA&ASIC笔面试题船新版本](./source/FPGA&ASIC笔面试题船新版本.pdf)
+[FPGA&ASIC笔面试题船新版本](./src/FPGA&amp;ASIC笔面试题船新版本.pdf)
 
-[FPGA&数字IC开发工程师笔试116题](./source/FPGA&数字IC开发工程师笔试116题.pdf)
+[FPGA&数字IC开发工程师笔试116题](./src/FPGA&数字IC开发工程师笔试116题.pdf)
+
