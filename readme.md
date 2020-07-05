@@ -3,11 +3,12 @@
 <!-- TOC -->
 
 - [数字IC笔记整理](#数字ic笔记整理)  
-        - [建立时间保持时间](#建立时间保持时间)  
-        - [跨时钟域](#跨时钟域)  
-        - [低功耗](#低功耗)  
-        - [覆盖率](#覆盖率)  
-        - [经典题目](#经典题目)  
+    - [建立时间保持时间](#建立时间保持时间)  
+    - [跨时钟域](#跨时钟域)  
+    - [低功耗](#低功耗)  
+    - [协议相关](#协议相关)  
+    - [SystemVerilog相关](#SystemVerilog相关)  
+    - [经典题目](#经典题目)  
 
 <!-- /TOC -->
 
@@ -31,7 +32,7 @@
 
 [《硬件架构的艺术》](./src/硬件架构的艺术.pdf)第三章
 
-[异步FIFO笔记](./src/异步FIFO.md)
+[格雷码与异步FIFO笔记](./src/异步FIFO.md)
 
 [Clifford E. Cummings的异步FIFO设计论文1](./src/Simulation%20and%20Synthesis%20Techniques%20for%20Asynchronous%20FIFO%20Design.pdf)
 
@@ -43,9 +44,19 @@
 
 [《硬件架构的艺术》](./src/硬件架构的艺术.pdf)第五章
 
-### 覆盖率
+### 协议相关
+
+[IIC和SPI](https://mp.weixin.qq.com/s/0WFeSQjcTPNIUfeHHCOw1A)  
+
+[AXI-4](https://mp.weixin.qq.com/s/jCd78u7Gx1l5XfJuf5AEhg)  
+
+[JESD204B](https://mp.weixin.qq.com/s/wPxqvxnwuCwKLfoqUbxGGg)
+
+### SystemVerilog相关
 
 [SystemVerilog覆盖率](https://mp.weixin.qq.com/s/qVSfcVtxHgKDYzXfEelT8w)
+
+[SystemVerilog函数和任务](https://mp.weixin.qq.com/s/kU7g_u4M2vrh1ZHs9TGcpA)
 
 ### 经典题目
 

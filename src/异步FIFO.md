@@ -81,6 +81,12 @@ endmodule
 
 <img src="./pics/async_fifo.png" alt="async_fifo" style="zoom:75%;" />
 
+异步FIFO空满标志的判定：
+
+为了区分空满标志，读写指针增加1bit。
+
+![image-20200705153740518](./pics/异步FIFO空满标志判定.png)
+
 **FIFO空条件的产生**
 
 当读指针与同步后的写指针相匹配时，FIFO为空，这时应该在FIFO的读时钟域内马上产生FIFO空标记。
@@ -97,9 +103,13 @@ always @ (posedge rclk or negedge reset_n)
 
 **FIFO满条件的产生**  
 
-在以下三个条件都为真时，FIFO满标志置起。
+满的条件为`{~waddr[4], waddr[3:0] == raddr}`
 
-1. 同步后的读指针(rd_ptr_sync)的MSB应该与写指针(wr_gtemp)的下一个格雷码值的MSB不同，wr_gtemp将寄存到wr_ptr中。
+![n-bit格雷码转换为(n-1)-bit格雷码](./pics/GrayCodetrait.png)
+
+根据格雷码的特点，在以下三个条件都为真时，FIFO满标志置起。
+
+1. 同步后的读指针(rd_ptr_sync)的MSB应该与写指针(wr_gtemp)的下一个格雷码值的MSB不同。
 2. 写时钟域中下一个格雷码计数值对应二进制码的第二个MSB(wr_gtemp)，应该与同步到写时钟域内读指针的MSB相同(rd_ptr_sync)。
 3. 两个指针中所有省略掉的LSB都应该匹配。
 
