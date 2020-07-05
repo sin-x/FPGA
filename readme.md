@@ -2,9 +2,12 @@
 
 <!-- TOC -->
 
-- [建立时间保持时间](#建立时间保持时间)
-- [跨时钟域](#跨时钟域)
-- [题目](#题目)
+- [数字IC笔记整理](#数字ic笔记整理)
+        - [建立时间保持时间](#建立时间保持时间)
+        - [跨时钟域](#跨时钟域)
+        - [低功耗](#低功耗)
+        - [覆盖率](#覆盖率)
+        - [经典题目](#经典题目)
 
 <!-- /TOC -->
 
@@ -34,7 +37,17 @@
 
 [Clifford E. Cummings的异步FIFO设计论文2](./src/Simulation%20and%20Synthesis%20Techniques%20for%20Asynchronous%20FIFO%20Design%20with%20Asynchronous%20Pointer%20Comparisons.pdf)
 
-### 题目
+### 低功耗
+
+[低功耗文章](./src/低功耗.pdf) [原文地址](https://mp.weixin.qq.com/s/Hwgj-sarqxDNt4ILYxMOVQ)
+
+[《硬件架构的艺术》](./src/硬件架构的艺术.pdf)第五章
+
+### 覆盖率
+
+[SystemVerilog覆盖率](https://mp.weixin.qq.com/s/qVSfcVtxHgKDYzXfEelT8w)
+
+### 经典题目
 
 [FPGA&ASIC笔面试题船新版本](./src/FPGA&amp;ASIC笔面试题船新版本.pdf)
 
