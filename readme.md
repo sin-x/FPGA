@@ -7,8 +7,10 @@
     - [跨时钟域](#跨时钟域)  
     - [低功耗](#低功耗)  
     - [协议相关](#协议相关)  
+    - [CRC相关](#CRC相关)
     - [SystemVerilog相关](#SystemVerilog相关)  
     - [经典题目](#经典题目)  
+    - [笔试题目](#笔试题目)
 
 <!-- /TOC -->
 
@@ -54,6 +56,18 @@
 
 [JESD204B](https://mp.weixin.qq.com/s/wPxqvxnwuCwKLfoqUbxGGg)
 
+### CRC相关
+
+[A PAINLESS GUIDE TO CRC ERROR DETECTION ALGORITHMS](./src/A%20PAINLESS%20GUIDE%20TO%20CRC%20ERROR%20DETECTION%20ALGORITHMS.pdf)
+
+[循环冗余校验(CRC)算法入门](https://www.cnblogs.com/sinferwu/p/7904279.html)
+
+[[CRC算法原理及其Verilog实现](https://www.cnblogs.com/season-peng/p/6713533.html)]
+
+[使用Verilog实现CRC-8的串行计算](https://blog.csdn.net/zhangningning1996/article/details/106795689)
+
+[数字IC笔试——乐鑫提前批笔试编程题源码](https://blog.csdn.net/qq_41844618/article/details/106822610)
+
 ### SystemVerilog相关
 
 [SystemVerilog覆盖率](https://mp.weixin.qq.com/s/qVSfcVtxHgKDYzXfEelT8w)
@@ -70,10 +84,11 @@
 
 [2021 vivo数字IC提前批笔试题](https://mp.weixin.qq.com/s/agjqs9Z1UG4Ep05NI1PhHA)
 
-[2021年校招提前批笔试解析](https://mp.weixin.qq.com/s/Q3uMxQx7MT8Zy2hDIaDX-w)
+[2021年vivo校招提前批笔试解析](https://mp.weixin.qq.com/s/Q3uMxQx7MT8Zy2hDIaDX-w)
 
 [2021 乐鑫数字IC提前批笔试题](https://mp.weixin.qq.com/s/sliUUUQMdLJKTarxxy2VPQ)
 
 [2021 乐鑫数字IC提前批笔试题解析](https://mp.weixin.qq.com/s/PtRJ9FlN8dMJbjmcZNIMkg)
 
 [2020华为海思校招芯片岗笔试解析](https://mp.weixin.qq.com/s/sxnnhUtYUuwzJWaCEyKtQg)
+
