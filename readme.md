@@ -44,6 +44,8 @@
 
 [《硬件架构的艺术》](./src/硬件架构的艺术.pdf)第五章
 
+[低功耗笔记](./src/低功耗笔记.md)
+
 ### 协议相关
 
 [IIC和SPI](https://mp.weixin.qq.com/s/0WFeSQjcTPNIUfeHHCOw1A)  
@@ -64,3 +66,14 @@
 
 [FPGA&数字IC开发工程师笔试116题](./src/FPGA&数字IC开发工程师笔试116题.pdf)
 
+### 笔试题目
+
+[2021 vivo数字IC提前批笔试题](https://mp.weixin.qq.com/s/agjqs9Z1UG4Ep05NI1PhHA)
+
+[2021年校招提前批笔试解析](https://mp.weixin.qq.com/s/Q3uMxQx7MT8Zy2hDIaDX-w)
+
+[2021 乐鑫数字IC提前批笔试题](https://mp.weixin.qq.com/s/sliUUUQMdLJKTarxxy2VPQ)
+
+[2021 乐鑫数字IC提前批笔试题解析](https://mp.weixin.qq.com/s/PtRJ9FlN8dMJbjmcZNIMkg)
+
+[2020华为海思校招芯片岗笔试解析](https://mp.weixin.qq.com/s/sxnnhUtYUuwzJWaCEyKtQg)
