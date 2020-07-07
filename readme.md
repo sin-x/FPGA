@@ -62,7 +62,7 @@
 
 [循环冗余校验(CRC)算法入门](https://www.cnblogs.com/sinferwu/p/7904279.html)
 
-[[CRC算法原理及其Verilog实现](https://www.cnblogs.com/season-peng/p/6713533.html)]
+[CRC算法的硬件电路实现：串行电路和并行电路](https://zhuanlan.zhihu.com/p/59666086)
 
 [使用Verilog实现CRC-8的串行计算](https://blog.csdn.net/zhangningning1996/article/details/106795689)
 
