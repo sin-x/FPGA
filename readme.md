@@ -40,6 +40,8 @@
 
 [Clifford E. Cummings的异步FIFO设计论文2](./src/Simulation%20and%20Synthesis%20Techniques%20for%20Asynchronous%20FIFO%20Design%20with%20Asynchronous%20Pointer%20Comparisons.pdf)
 
+[异步FIFO的Verilog代码实现](./src/async_fifo_verilog.md)
+
 ### 低功耗
 
 [低功耗文章](./src/低功耗.pdf) [原文地址](https://mp.weixin.qq.com/s/Hwgj-sarqxDNt4ILYxMOVQ)
@@ -59,6 +61,8 @@
 ### CRC相关
 
 [A PAINLESS GUIDE TO CRC ERROR DETECTION ALGORITHMS](./src/A%20PAINLESS%20GUIDE%20TO%20CRC%20ERROR%20DETECTION%20ALGORITHMS.pdf)
+
+[CRC、LFSR电路](https://note.youdao.com/ynoteshare1/index.html?id=a99dd6686501a06c8ed39cd2c40f9aed&type=note)
 
 [循环冗余校验(CRC)算法入门](https://www.cnblogs.com/sinferwu/p/7904279.html)
 
