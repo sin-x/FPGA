@@ -70,6 +70,8 @@
 
 [使用Verilog实现CRC-8的串行计算](https://blog.csdn.net/zhangningning1996/article/details/106795689)
 
+[数字IC笔试题_CRC并行计算](https://zhuanlan.zhihu.com/p/69969288)
+
 [数字IC笔试——乐鑫提前批笔试编程题源码](https://blog.csdn.net/qq_41844618/article/details/106822610)
 
 ### SystemVerilog相关
