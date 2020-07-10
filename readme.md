@@ -14,6 +14,10 @@
 
 <!-- /TOC -->
 
+[CMOS Example lnv(A+BC)C+D](./src/CMOS%20Example%20[Inv(A+BC)C+D].mp4)
+
+[CMOS Digital Logic Circuits](http://fourier.eng.hmc.edu/e84/lectures/ch4/node15.html)
+
 ### 建立时间保持时间
 
 [建立时间保持时间笔记](./src/建立时间保持时间.md)
