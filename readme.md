@@ -2,24 +2,28 @@
 
 <!-- TOC -->
 
-- [数字IC笔记整理](#数字ic笔记整理)  
-    - [建立时间保持时间](#建立时间保持时间)  
-    - [跨时钟域](#跨时钟域)  
-    - [低功耗](#低功耗)  
-    - [协议相关](#协议相关)  
-    - [CRC相关](#CRC相关)
-    - [SystemVerilog相关](#SystemVerilog相关)  
-    - [经典题目](#经典题目)  
-    - [笔试题目](#笔试题目)
+- [数字IC笔记整理](#数字ic笔记整理)
+    - [数电知识点](#数电知识点)
+    - [IC知识点](#ic知识点)
+        - [建立时间保持时间](#建立时间保持时间)
+        - [跨时钟域](#跨时钟域)
+        - [低功耗](#低功耗)
+        - [协议相关](#协议相关)
+        - [CRC相关](#crc相关)
+        - [SystemVerilog相关](#systemverilog相关)
+    - [项目相关](#项目相关)
+    - [题目](#题目)
+        - [经典题目](#经典题目)
+        - [笔试题目](#笔试题目)
 
 <!-- /TOC -->
 
 ## 数电知识点
+[CMOS Example lnv(A+BC)C+D](./src/CMOS%20Example%20[Inv(A+BC)C+D].mp4)
 
+[CMOS Digital Logic Circuits](http://fourier.eng.hmc.edu/e84/lectures/ch4/node15.html)
 
-
-## IC知识点
-
+## IC知识点  
 ### 建立时间保持时间
 
 [建立时间保持时间笔记](./src/建立时间保持时间.md)
@@ -88,7 +92,15 @@
 
 ## 项目相关
 
+[Serdes知识讲解](./src/serdes知识讲解.pdf)
+
+[SerDes知识讲解网页版](https://blog.csdn.net/Next_FSE/article/details/73521821)
+
+[SerDes知识讲解](https://blog.csdn.net/zjy900507/article/details/99833625?utm_source=app)
+
 [Serdes原理](https://blog.csdn.net/dumgeewang/article/details/104557326)
+
+[xilinx 高速收发器Serdes深入研究](https://blog.csdn.net/u010161493/article/details/77688024)
 
 ## 题目
 
