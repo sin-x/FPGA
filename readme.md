@@ -14,6 +14,12 @@
 
 <!-- /TOC -->
 
+## 数电知识点
+
+
+
+## IC知识点
+
 ### 建立时间保持时间
 
 [建立时间保持时间笔记](./src/建立时间保持时间.md)
@@ -79,6 +85,12 @@
 [SystemVerilog覆盖率](https://mp.weixin.qq.com/s/qVSfcVtxHgKDYzXfEelT8w)
 
 [SystemVerilog函数和任务](https://mp.weixin.qq.com/s/kU7g_u4M2vrh1ZHs9TGcpA)
+
+## 项目相关
+
+[Serdes原理](https://blog.csdn.net/dumgeewang/article/details/104557326)
+
+## 题目
 
 ### 经典题目
 
