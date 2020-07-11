@@ -46,11 +46,19 @@
 
 [格雷码与异步FIFO笔记](./src/异步FIFO.md)
 
+[**异步FIFO深度计算**](./src/fifodepthcalculationmadeeasy2.pdf)
+
+[异步FIFO面试题](./src/异步FIFO面试题.md)
+
 [Clifford E. Cummings的异步FIFO设计论文1](./src/Simulation%20and%20Synthesis%20Techniques%20for%20Asynchronous%20FIFO%20Design.pdf)
 
 [Clifford E. Cummings的异步FIFO设计论文2](./src/Simulation%20and%20Synthesis%20Techniques%20for%20Asynchronous%20FIFO%20Design%20with%20Asynchronous%20Pointer%20Comparisons.pdf)
 
 [异步FIFO的Verilog代码实现](./src/async_fifo_verilog.md)
+
+[跨时钟域文献:跨越鸿沟_同步世界中的异步信号](./src/CrossClockDomain_design.pdf)
+
+[跨时钟域文献:跨越鸿沟_同步世界中的异步信号(中文版)](./src/跨越鸿沟_同步世界中的异步信号.pdf)
 
 ### 低功耗
 
