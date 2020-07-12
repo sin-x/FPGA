@@ -15,6 +15,7 @@
     - [题目](#题目)
         - [经典题目](#经典题目)
         - [笔试题目](#笔试题目)
+    - [代码](#代码)
 
 <!-- /TOC -->
 
@@ -53,8 +54,6 @@
 [Clifford E. Cummings的异步FIFO设计论文1](./src/Simulation%20and%20Synthesis%20Techniques%20for%20Asynchronous%20FIFO%20Design.pdf)
 
 [Clifford E. Cummings的异步FIFO设计论文2](./src/Simulation%20and%20Synthesis%20Techniques%20for%20Asynchronous%20FIFO%20Design%20with%20Asynchronous%20Pointer%20Comparisons.pdf)
-
-[异步FIFO的Verilog代码实现](./src/async_fifo_verilog.md)
 
 [跨时钟域文献:跨越鸿沟_同步世界中的异步信号](./src/CrossClockDomain_design.pdf)
 
@@ -130,3 +129,6 @@
 
 [2020华为海思校招芯片岗笔试解析](https://mp.weixin.qq.com/s/sxnnhUtYUuwzJWaCEyKtQg)
 
+## 代码
+
+[异步FIFO的Verilog代码实现](./src/async_fifo_verilog.md)
