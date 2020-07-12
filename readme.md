@@ -99,11 +99,11 @@
 
 ## 项目相关
 
+[SerDes知识讲解_通俗易懂](https://blog.csdn.net/zjy900507/article/details/99833625?utm_source=app)
+
 [Serdes知识讲解](./src/serdes知识讲解.pdf)
 
 [SerDes知识讲解网页版](https://blog.csdn.net/Next_FSE/article/details/73521821)
-
-[SerDes知识讲解](https://blog.csdn.net/zjy900507/article/details/99833625?utm_source=app)
 
 [Serdes原理](https://blog.csdn.net/dumgeewang/article/details/104557326)
 
