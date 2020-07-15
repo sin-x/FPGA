@@ -81,6 +81,10 @@
 
 [CRC、LFSR电路](https://note.youdao.com/ynoteshare1/index.html?id=a99dd6686501a06c8ed39cd2c40f9aed&type=note)
 
+[环形、扭环、LFSR计数器](https://blog.csdn.net/Reborn_Lee/article/details/102172111?utm_source=app)
+
+[线性反馈移位寄存器(Linear Feedback Shift Register, LFSR)](https://blog.csdn.net/qq_44113393/article/details/89852994)
+
 [循环冗余校验(CRC)算法入门](https://www.cnblogs.com/sinferwu/p/7904279.html)
 
 [CRC算法的硬件电路实现：串行电路和并行电路](https://zhuanlan.zhihu.com/p/59666086)
@@ -133,4 +137,7 @@
 
 [异步FIFO的Verilog代码实现](./src/async_fifo_verilog.md)
 
+<<<<<<< HEAD
 [CRC相关代码](./src/crc_code.md)
+=======
+>>>>>>> tmp
