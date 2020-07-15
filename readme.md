@@ -137,7 +137,5 @@
 
 [异步FIFO的Verilog代码实现](./src/async_fifo_verilog.md)
 
-<<<<<<< HEAD
+
 [CRC相关代码](./src/crc_code.md)
-=======
->>>>>>> tmp
