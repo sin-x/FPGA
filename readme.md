@@ -132,3 +132,5 @@
 ## 代码
 
 [异步FIFO的Verilog代码实现](./src/async_fifo_verilog.md)
+
+[CRC相关代码](./src/crc_code.md)
