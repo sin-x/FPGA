@@ -1,4 +1,4 @@
-**串行方式**
+**并行方式——华为**
 
 ```verilog
 // --------------------------------
@@ -28,6 +28,8 @@ always@(Crc_out or Data_in)
     end
 ```
 
+**串行方式——华为**
+
 ```verilog
 // --------------------------------
 // This code is used to check CRC_16 of serial data, 
@@ -52,13 +54,13 @@ always@(posedge Reset or posedge Gclk)
                 Crc_out[5] <= Temp ^ Crc_out[4];
                 
                 for(l = 4; l > 0; l = l - 1)
-                    Crc_out[l] = Crc_out[l-1];
+                    Crc_out[l] <= Crc_out[l-1];
                 Crc_out[0] <= Temp;
             end
     end
 ```
 
-**并行方式**
+**并行方式——乐鑫笔试题**
 
 ```verilog
 // -------------------------------
@@ -98,21 +100,21 @@ module loop1(
     output reg [7:0] check_sum_o
 );
 always @ (posedge clk or negedge rst_n)
-	if (!rst_n)
-		begin
-			check_sum_o <= 8'h0;
-		end
-	else
-		begin
-			check_sum_o[7] <= check_sum[3]^check_sum[2]^check_sum[5];
-			check_sum_o[6] <= check_sum[2]^check_sum[1]^check_sum[4]^check_sum[7];
+    if (!rst_n)
+        begin
+            check_sum_o <= 8'h0;
+        end
+    else
+        begin
+            check_sum_o[7] <= check_sum[3]^check_sum[2]^check_sum[5];
+            check_sum_o[6] <= check_sum[2]^check_sum[1]^check_sum[4]^check_sum[7];
             check_sum_o[5] <= check_sum[1]^check_sum[7]^check_sum[0]^check_sum[3]^check_sum[6];
-			check_sum_o[4] <= check_sum[7]^check_sum[0]^check_sum[3]^check_sum[6];
-			check_sum_o[3] <= check_sum[3]^check_sum[7]^check_sum[6];
-			check_sum_o[2] <= check_sum[2]^check_sum[6]^check_sum[5];
-			check_sum_o[1] <= check_sum[1]^check_sum[5]^check_sum[4]^check_sum[7];
-			check_sum_o[0] <= check_sum[0]^check_sum[4]^check_sum[3]^check_sum[6];
-		end
+            check_sum_o[4] <= check_sum[7]^check_sum[0]^check_sum[3]^check_sum[6];
+            check_sum_o[3] <= check_sum[3]^check_sum[7]^check_sum[6];
+            check_sum_o[2] <= check_sum[2]^check_sum[6]^check_sum[5];
+            check_sum_o[1] <= check_sum[1]^check_sum[5]^check_sum[4]^check_sum[7];
+            check_sum_o[0] <= check_sum[0]^check_sum[4]^check_sum[3]^check_sum[6];
+        end
 endmodule
 ```
 
@@ -121,12 +123,12 @@ endmodule
 // 方法二
 // -------------------------------
 module loop2(
-	input            clk,
+    input            clk,
     input            rst_n,
     input      [7:0] check_sum,
     output reg [7:0] check_sum_o
 );
- 	integer i;
+     integer i;
     reg [7:0] ccc;
     
     always@(posedge clk or negedge rst_n)
@@ -134,8 +136,8 @@ module loop2(
             begin
                 check_sum_o = 8'h0;
             end
-	    else
-			begin
+        else
+            begin
                 ccc = check_sum;
                 
                 for(i = 0; i < 8; i = i + 1)
@@ -154,7 +156,7 @@ endmodule
 // 然后在单周期内进行赋值
 // -------------------------------
 module loop3(
-	input            clk,
+    input            clk,
     input            rst_n,
     input      [7:0] check_sum,
     output reg [7:0] check_sum_o
@@ -185,7 +187,7 @@ module loop3(
             begin
                 check_sum_o = 8'h0;
             end
-   		else
+           else
             begin
                 check_sum_o <= cal_table_high_first(check_sum);
             end
@@ -209,7 +211,24 @@ module loop1_tb;
             rst_n = 0;
             
             #10
-            rst_n = 0;
+            rst_n = 1;
+            
+            for(check_sum = 0; check_sum < 16; check_sum = check_sum + 1)
+                begin
+                    #2
+                    // check_sum = i;
+                    $display("check_sum = %h", check_sum_o);
+                    if(check_sum == 15) $stop;
+                end
         end
+    
+    loop1 loop1_i1(
+        .clk(clk),
+        .rst_n(rst_n),
+        .check_sum(check_sum),
+        .check_sum_o(check_sum_o)
+    );
+    
+endmodule
 ```
 
