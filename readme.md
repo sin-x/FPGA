@@ -12,6 +12,8 @@
         - [CRC相关](#crc相关)
         - [SystemVerilog相关](#systemverilog相关)
     - [项目相关](#项目相关)
+        - [Serdes相关](#Serdes相关)
+        - [波形捕获率计算](#波形捕获率)
     - [题目](#题目)
         - [经典题目](#经典题目)
         - [笔试题目](#笔试题目)
@@ -105,6 +107,8 @@
 
 ## 项目相关
 
+### Serdes相关
+
 [SerDes知识讲解_通俗易懂](https://blog.csdn.net/zjy900507/article/details/99833625?utm_source=app)
 
 [Serdes知识讲解](./src/serdes知识讲解.pdf)
@@ -114,6 +118,10 @@
 [Serdes原理](https://blog.csdn.net/dumgeewang/article/details/104557326)
 
 [xilinx 高速收发器Serdes深入研究](https://blog.csdn.net/u010161493/article/details/77688024)
+
+### 波形捕获率
+
+[波形捕获率的计算](./src/波形捕获率.md)
 
 ## 题目
 
