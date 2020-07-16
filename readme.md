@@ -95,6 +95,8 @@
 
 [数字IC笔试——乐鑫提前批笔试编程题源码](https://blog.csdn.net/qq_41844618/article/details/106822610)
 
+两个在线生成并行CRC Verilog代码工具：[CRC在线工具](https://www.easics.com/webtools/crctool) [CRC generator](http://outputlogic.com/?page_id=321)
+
 ### SystemVerilog相关
 
 [SystemVerilog覆盖率](https://mp.weixin.qq.com/s/qVSfcVtxHgKDYzXfEelT8w)
@@ -138,3 +140,5 @@
 [异步FIFO的Verilog代码实现](./src/async_fifo_verilog.md)
 
 [CRC相关代码](./src/crc_code.md)
+
+[用Verilog实现Glitch free时钟切换电路](./src/glitch_free.md)
