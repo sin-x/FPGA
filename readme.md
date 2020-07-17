@@ -10,6 +10,7 @@
         - [低功耗](#低功耗)
         - [协议相关](#协议相关)
         - [CRC相关](#crc相关)
+        - [Glitch Free时钟切换](#Glitch-Free时钟切换)
         - [SystemVerilog相关](#systemverilog相关)
     - [项目相关](#项目相关)
         - [Serdes相关](#Serdes相关)
@@ -98,6 +99,12 @@
 [数字IC笔试——乐鑫提前批笔试编程题源码](https://blog.csdn.net/qq_41844618/article/details/106822610)
 
 两个在线生成并行CRC Verilog代码工具：[CRC在线工具](https://www.easics.com/webtools/crctool) [CRC generator](http://outputlogic.com/?page_id=321)
+
+### Glitch Free时钟切换
+
+[Glitch Free时钟切换技术](https://mp.weixin.qq.com/s/w3Wu7HkSr5v94kHrLvRIcw) 
+
+[Glitch Free时钟切换技术另一篇博客](https://blog.csdn.net/Reborn_Lee/article/details/90378355?tdsourcetag=s_pctim_aiomsg)
 
 ### SystemVerilog相关
 
