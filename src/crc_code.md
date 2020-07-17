@@ -187,7 +187,7 @@ module loop3(
             begin
                 check_sum_o = 8'h0;
             end
-           else
+        else
             begin
                 check_sum_o <= cal_table_high_first(check_sum);
             end
