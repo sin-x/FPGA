@@ -163,3 +163,5 @@
 [CRC相关代码](./src/crc_code.md)
 
 [用Verilog实现Glitch free时钟切换电路](./src/glitch_free.md)
+
+[Verilog实现串并/并串转换](./src/easy_serdes_code.md)
