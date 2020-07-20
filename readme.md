@@ -27,6 +27,10 @@
 
 [CMOS Digital Logic Circuits](http://fourier.eng.hmc.edu/e84/lectures/ch4/node15.html)
 
+[加法器-半加器、全加器与超前进位加法器](https://blog.csdn.net/vivid117/article/details/91980665#comments)
+
+[Brent-Kung树形加法器原理与设计](https://blog.csdn.net/zhouxuanyuye/article/details/104034586)
+
 ## IC知识点  
 ### 建立时间保持时间
 
@@ -159,6 +163,8 @@
 ## 代码
 
 [异步FIFO的Verilog代码实现](./src/code/async_fifo_verilog.md)
+
+[跨时钟域_握手信号代码](./src/code/cdc_code.md)
 
 [CRC相关代码](./src/code/crc_code.md)
 
