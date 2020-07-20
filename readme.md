@@ -10,11 +10,11 @@
         - [低功耗](#低功耗)
         - [协议相关](#协议相关)
         - [CRC相关](#crc相关)
-        - [Glitch Free时钟切换](#Glitch-Free时钟切换)
+        - [Glitch Free时钟切换](#glitch-free时钟切换)
         - [SystemVerilog相关](#systemverilog相关)
     - [项目相关](#项目相关)
-        - [Serdes相关](#Serdes相关)
-        - [波形捕获率计算](#波形捕获率)
+        - [Serdes相关](#serdes相关)
+        - [波形捕获率](#波形捕获率)
         - [插值滤波器](#插值滤波器)
     - [题目](#题目)
         - [经典题目](#经典题目)
@@ -35,7 +35,7 @@
 ## IC知识点  
 ### 建立时间保持时间
 
-[建立时间保持时间笔记](./src/doc/建立时间保持时间.md)
+[建立时间保持时间笔记](./src/docs/建立时间保持时间.md)
 
 [建立时间保持时间关系详解](https://www.cnblogs.com/lilto/p/9581143.html)
 
@@ -45,41 +45,41 @@
 
 ### 跨时钟域
 
-[跨时钟域处理3大方法揭秘](./src/doc/跨时钟域处理3大方法揭秘.pdf)
+[跨时钟域处理3大方法揭秘](./src/docs/跨时钟域处理3大方法揭秘.pdf)
 
 针对快时钟域到慢时钟域情况：
 
 [FPGA跨时钟域的处理方法](https://blog.csdn.net/emperor_strange/article/details/82491085?utm_source=app)
 
-[《硬件架构的艺术》](./src/doc/硬件架构的艺术.pdf)第三章
+[《硬件架构的艺术》](./src/docs/硬件架构的艺术.pdf)第三章
 
-[格雷码与异步FIFO笔记](./src/doc/异步FIFO.md)
+[格雷码与异步FIFO笔记](./src/docs/异步FIFO.md)
 
-[**异步FIFO深度计算**](./src/doc/fifodepthcalculationmadeeasy2.pdf)
+[**异步FIFO深度计算**](./src/docs/fifodepthcalculationmadeeasy2.pdf)
 
-[异步FIFO面试题](./src/doc/异步FIFO面试题.md)
+[异步FIFO面试题](./src/docs/异步FIFO面试题.md)
 
-[Clifford E. Cummings的异步FIFO设计论文1](./src/doc/Simulation%20and%20Synthesis%20Techniques%20for%20Asynchronous%20FIFO%20Design.pdf)
+[Clifford E. Cummings的异步FIFO设计论文1](./src/docs/Simulation%20and%20Synthesis%20Techniques%20for%20Asynchronous%20FIFO%20Design.pdf)
 
-[Clifford E. Cummings的异步FIFO设计论文2](./src/doc/Simulation%20and%20Synthesis%20Techniques%20for%20Asynchronous%20FIFO%20Design%20with%20Asynchronous%20Pointer%20Comparisons.pdf)
+[Clifford E. Cummings的异步FIFO设计论文2](./src/docs/Simulation%20and%20Synthesis%20Techniques%20for%20Asynchronous%20FIFO%20Design%20with%20Asynchronous%20Pointer%20Comparisons.pdf)
 
-[跨时钟域文献:跨越鸿沟_同步世界中的异步信号](./src/doc/CrossClockDomain_design.pdf)
+[跨时钟域文献:跨越鸿沟_同步世界中的异步信号](./src/docs/CrossClockDomain_design.pdf)
 
-[跨时钟域文献:跨越鸿沟_同步世界中的异步信号(中文版)](./src/doc/跨越鸿沟_同步世界中的异步信号.pdf)
+[跨时钟域文献:跨越鸿沟_同步世界中的异步信号(中文版)](./src/docs/跨越鸿沟_同步世界中的异步信号.pdf)
 
 下面两篇专利介绍了深度不是2的幂的FIFO设计：
 
-[深度不是2的幂的异步FIFO存储器设计](./src/doc/深度不是2的幂的异步FIFO存储器设计.pdf)
+[深度不是2的幂的异步FIFO存储器设计](./src/docs/深度不是2的幂的异步FIFO存储器设计.pdf)
 
-[实现任意深度异步FIFO的方法及系统](./src/doc/实现任意深度异步FIFO的方法及系统.pdf)
+[实现任意深度异步FIFO的方法及系统](./src/docs/实现任意深度异步FIFO的方法及系统.pdf)
 
 ### 低功耗
 
-[低功耗文章](./src/doc/低功耗.pdf) [原文地址](https://mp.weixin.qq.com/s/Hwgj-sarqxDNt4ILYxMOVQ)
+[低功耗文章](./src/docs/低功耗.pdf) [原文地址](https://mp.weixin.qq.com/s/Hwgj-sarqxDNt4ILYxMOVQ)
 
-[《硬件架构的艺术》](./src/doc/硬件架构的艺术.pdf)第五章
+[《硬件架构的艺术》](./src/docs/硬件架构的艺术.pdf)第五章
 
-[低功耗笔记](./src/doc/低功耗笔记.md)
+[低功耗笔记](./src/docs/低功耗笔记.md)
 
 ### 协议相关
 
@@ -91,7 +91,7 @@
 
 ### CRC相关
 
-[A PAINLESS GUIDE TO CRC ERROR DETECTION ALGORITHMS](./src/doc/A%20PAINLESS%20GUIDE%20TO%20CRC%20ERROR%20DETECTION%20ALGORITHMS.pdf)
+[A PAINLESS GUIDE TO CRC ERROR DETECTION ALGORITHMS](./src/docs/A%20PAINLESS%20GUIDE%20TO%20CRC%20ERROR%20DETECTION%20ALGORITHMS.pdf)
 
 [CRC、LFSR电路](https://note.youdao.com/ynoteshare1/index.html?id=a99dd6686501a06c8ed39cd2c40f9aed&type=note)
 
@@ -129,7 +129,7 @@
 
 [SerDes知识讲解_通俗易懂](https://blog.csdn.net/zjy900507/article/details/99833625?utm_source=app)
 
-[Serdes知识讲解](./src/doc/serdes知识讲解.pdf)
+[Serdes知识讲解](./src/docs/serdes知识讲解.pdf)
 
 [SerDes知识讲解网页版](https://blog.csdn.net/Next_FSE/article/details/73521821)
 
@@ -139,19 +139,19 @@
 
 ### 波形捕获率
 
-[波形捕获率的计算](./src/doc/波形捕获率.md)
+[波形捕获率的计算](./src/docs/波形捕获率.md)
 
 ### 插值滤波器
 
-[插值代码分析](./src/doc/插值代码分析.pdf)
+[插值代码分析](./src/docs/插值代码分析.pdf)
 
 ## 题目
 
 ### 经典题目
 
-[FPGA&ASIC笔面试题船新版本](./src/doc/FPGA&amp;ASIC笔面试题船新版本.pdf)
+[FPGA&ASIC笔面试题船新版本](./src/docs/FPGA&amp;ASIC笔面试题船新版本.pdf)
 
-[FPGA&数字IC开发工程师笔试116题](./src/doc/FPGA&数字IC开发工程师笔试116题.pdf)
+[FPGA&数字IC开发工程师笔试116题](./src/docs/FPGA&数字IC开发工程师笔试116题.pdf)
 
 ### 笔试题目
 
