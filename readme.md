@@ -179,3 +179,5 @@
 
 [三分频/奇数分频代码](./src/code/divide_three.md)
 
+[用Verilog实现PWM控制呼吸灯](./src/code/pwm_cnt.md)
+
