@@ -167,6 +167,8 @@
 
 ## 代码
 
+[Verilog HDL程序设计-135例](./src/docs/Verilog%20HDL程序设计-135例.pdf)
+
 [异步FIFO的Verilog代码实现](./src/code/async_fifo_verilog.md)
 
 [跨时钟域_握手信号代码](./src/code/cdc_code.md)
@@ -180,4 +182,6 @@
 [三分频/奇数分频代码](./src/code/divide_three.md)
 
 [用Verilog实现PWM控制呼吸灯](./src/code/pwm_cnt.md)
+
+[按键消抖代码](./src/code/debounce.md)
 
