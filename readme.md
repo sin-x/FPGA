@@ -4,6 +4,7 @@
 
 - [数字IC笔记整理](#数字ic笔记整理)
     - [数电知识点](#数电知识点)
+    - [数字信号处理](#数字信号处理)
     - [IC知识点](#ic知识点)
         - [建立时间保持时间](#建立时间保持时间)
         - [跨时钟域](#跨时钟域)
@@ -31,6 +32,10 @@
 [加法器-半加器、全加器与超前进位加法器](https://blog.csdn.net/vivid117/article/details/91980665#comments)
 
 [Brent-Kung树形加法器原理与设计](https://blog.csdn.net/zhouxuanyuye/article/details/104034586)
+
+## 数字信号处理
+
+[深入浅出数字信号处理](./src/docs/深入浅出数字信号处理.pdf)
 
 ## IC知识点  
 ### 建立时间保持时间
