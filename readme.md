@@ -6,6 +6,7 @@
     - [数电知识点](#数电知识点)
     - [数字信号处理](#数字信号处理)
     - [IC知识点](#ic知识点)
+        - [FPGA原理](#FPGA原理)
         - [STA静态时序分析](#STA静态时序分析)
         - [跨时钟域](#跨时钟域)
         - [低功耗](#低功耗)
@@ -38,6 +39,11 @@
 [深入浅出数字信号处理](./src/docs/深入浅出数字信号处理.pdf)
 
 ## IC知识点  
+
+### FPGA原理
+
+[FPGA相关知识](./src/docs/FPGA相关知识.pdf)
+
 ### STA静态时序分析
 
 [建立时间保持时间笔记](./src/docs/建立时间保持时间.md)
@@ -49,6 +55,8 @@
 [建立时间保持时间经典题目](https://reborn.blog.csdn.net/article/details/100049997?utm_source=app)
 
 [八小时超长视频教你掌握FPGA时序约束！](https://mp.weixin.qq.com/s/V3qCQNCcxpO_PaWso3GWkw)
+
+[FPGA时序分析—vivado篇](https://mp.weixin.qq.com/s/gkXRNblISyUIIrIxLRmLgw)
 
 [UltraFast 设计方法时序收敛快捷参考指南——xilinx文档](./src/docs/c_ug1292-ultrafast-timing-closure-quick-reference.pdf)
 
@@ -89,6 +97,7 @@
 [《硬件架构的艺术》](./src/docs/硬件架构的艺术.pdf)第五章
 
 [低功耗笔记](./src/docs/低功耗笔记.md)
+
 
 ### 协议相关
 
