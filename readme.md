@@ -6,8 +6,8 @@
     - [数电知识点](#数电知识点)
     - [数字信号处理](#数字信号处理)
     - [IC知识点](#ic知识点)
-        - [FPGA原理](#FPGA原理)
-        - [STA静态时序分析](#STA静态时序分析)
+        - [FPGA原理](#fpga原理)
+        - [STA静态时序分析](#sta静态时序分析)
         - [跨时钟域](#跨时钟域)
         - [低功耗](#低功耗)
         - [协议相关](#协议相关)
@@ -154,6 +154,8 @@
 [Serdes原理](https://blog.csdn.net/dumgeewang/article/details/104557326)
 
 [xilinx 高速收发器Serdes深入研究](https://blog.csdn.net/u010161493/article/details/77688024)
+
+[轻松实现高速串行](./src/docs/轻松实现高速串行.pdf)
 
 ### 波形捕获率
 
