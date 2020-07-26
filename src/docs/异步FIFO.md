@@ -137,4 +137,4 @@ always @ (posedge wclk or negedge reset_n)
 
 **解析：** 先计算出100个脉冲后跑了多少个16状态，100/16=6余4；故需要知道1001后的第四个状态是哪个？1001转为二进制为1110，1110为十进制14，再后4个数是15，0,1，2；故第四个数为2，转为格雷码为：**0011**
 
-[异步FIFO的Verilog代码实现](./async_fifo_verilog.md)
+[异步FIFO的Verilog代码实现](../code/async_fifo_verilog.md)
