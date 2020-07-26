@@ -24,6 +24,7 @@
         - [经典题目](#经典题目)
         - [笔试题目](#笔试题目)
     - [代码](#代码)
+    - [参考书目清单](#参考书目清单)
 
 <!-- /TOC -->
 
@@ -86,7 +87,7 @@
 
 [Clifford E. Cummings的异步FIFO设计论文2](./src/docs/Simulation%20and%20Synthesis%20Techniques%20for%20Asynchronous%20FIFO%20Design%20with%20Asynchronous%20Pointer%20Comparisons.pdf)
 
-[跨时钟域文献:跨越鸿沟_同步世界中的异步信号](./src/docs/CrossClockDomain_design.pdf)
+[跨时钟域文献:跨越鸿沟_同步世界中的异步信号(英文版)](./src/docs/CrossClockDomain_design.pdf)
 
 [跨时钟域文献:跨越鸿沟_同步世界中的异步信号(中文版)](./src/docs/跨越鸿沟_同步世界中的异步信号.pdf)
 
@@ -227,3 +228,12 @@
 
 [按键消抖代码](./src/code/debounce.md)
 
+## 参考书目清单
+
+[硬件架构的艺术](./src/docs/硬件架构的艺术.pdf)
+
+[ASIC高性能数字系统设计](./src/docs/ASIC高性能数字系统设计.pdf)
+
+[UVM实战卷I](./src/docs/UVM实战%20卷Ⅰ.pdf)
+
+[Verilog\_HDL\_那些事儿\_时序篇v2](./src/docs/Verilog_HDL_那些事儿_时序篇v2.pdf)
