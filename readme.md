@@ -13,7 +13,9 @@
         - [协议相关](#协议相关)
         - [CRC相关](#crc相关)
         - [Glitch Free时钟切换](#glitch-free时钟切换)
+    - [验证相关](#验证相关)
         - [SystemVerilog相关](#systemverilog相关)
+        - [DFT相关](#DFT相关)
     - [项目相关](#项目相关)
         - [Serdes相关](#serdes相关)
         - [波形捕获率](#波形捕获率)
@@ -33,6 +35,10 @@
 [加法器-半加器、全加器与超前进位加法器](https://blog.csdn.net/vivid117/article/details/91980665#comments)
 
 [Brent-Kung树形加法器原理与设计](https://blog.csdn.net/zhouxuanyuye/article/details/104034586)
+
+[乘法器相关的知识包括Booth乘法器](./src/docs/Verilog_HDL_那些事儿_时序篇v2.pdf)
+
+[乘法器的原理](https://note.youdao.com/ynoteshare1/index.html?id=21a32bc5552244d7091ba2b4d84d8129&type=note)
 
 ## 数字信号处理
 
@@ -135,11 +141,17 @@
 
 [Glitch Free时钟切换技术另一篇博客](https://blog.csdn.net/Reborn_Lee/article/details/90378355?tdsourcetag=s_pctim_aiomsg)
 
+## 验证相关
+
 ### SystemVerilog相关
 
 [SystemVerilog覆盖率](https://mp.weixin.qq.com/s/qVSfcVtxHgKDYzXfEelT8w)
 
 [SystemVerilog函数和任务](https://mp.weixin.qq.com/s/kU7g_u4M2vrh1ZHs9TGcpA)
+
+### DFT相关
+
+[DFT基础](./src/docs/DFT基础.pdf)
 
 ## 项目相关
 
@@ -165,6 +177,8 @@
 
 [插值代码分析](./src/docs/插值代码分析.pdf)
 
+[FIR滤波器](https://blog.csdn.net/vast_sea/article/details/8194814)
+
 ## 题目
 
 ### 经典题目
@@ -172,6 +186,14 @@
 [FPGA&ASIC笔面试题船新版本](./src/docs/FPGA&amp;ASIC笔面试题船新版本.pdf)
 
 [FPGA&数字IC开发工程师笔试116题](./src/docs/FPGA&数字IC开发工程师笔试116题.pdf)
+
+[逻辑问题汇总思维导图](./src/docs/逻辑问题汇总.xmind) **[逻辑问题汇总资料整理](./src/docs/逻辑问题汇总整理.md)**
+
+[师兄整理的笔记](./src/docs/师兄笔记.pdf)
+
+[数字IC面试题—来自师兄的整理](./src/docs/数字IC面试题.pdf)
+
+[数字电路基础知识点](./src/docs/数字电路基础知识修改版2017_SK.txt)
 
 ### 笔试题目
 
