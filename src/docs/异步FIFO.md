@@ -6,7 +6,7 @@
 
 从二进制码的最右边一位（最低位）起，依次将每一位与左边一位进行异或运算，作为对应格雷码该位的值，而最左边高位不变。
 
-![二进制转格雷码](./pics/bin2gray.png)
+![二进制转格雷码](../pics/bin2gray.png)
 
 ```verilog
 g[n] = b[n]，
@@ -23,7 +23,7 @@ assign gray_value = binary_value ^ (binary >> 1);
 
 从格雷码左边第二位（次高位）起，将每一位与其左边一位解码后的值异或，作为该位解码后的值，而最左边一位（最高位）不变就是它本身。
 
-![格雷码转二进制码](./pics/gray2bin.png)
+![格雷码转二进制码](../pics/gray2bin.png)
 
 ```verilog
 b[n] = g[n]，
@@ -42,7 +42,7 @@ generate
 endgenerate
 ```
 
-<img src="./pics/gray2bintrait.png#width-full" alt="格雷码转二进制特点" style="zoom:75%;" />
+<img src="../pics/gray2bintrait.png#width-full" alt="格雷码转二进制特点" style="zoom:75%;" />
 
 或者描述为：
 
@@ -55,7 +55,7 @@ always @ (gray)
 
 **格雷码计数器**  
 
-![gray_counter](./pics/gray_counter.png)
+![gray_counter](../pics/gray_counter.png)
 
 ```verilog
 module gray_counter(clk, gray, inr, reset_n)
@@ -79,13 +79,13 @@ endmodule
 
 异步FIFO原理如下图所示：
 
-<img src="./pics/async_fifo.png" alt="async_fifo" style="zoom:75%;" />
+<img src="../pics/async_fifo.png" alt="async_fifo" style="zoom:75%;" />
 
 异步FIFO空满标志的判定：
 
 为了区分空满标志，读写指针增加1bit。
 
-![image-20200705153740518](./pics/异步FIFO空满标志判定.png)
+![image-20200705153740518](../pics/异步FIFO空满标志判定.png)
 
 **FIFO空条件的产生**
 
@@ -105,7 +105,7 @@ always @ (posedge rclk or negedge reset_n)
 
 满的条件为`{~waddr[4], waddr[3:0] == raddr}`
 
-![n-bit格雷码转换为(n-1)-bit格雷码](./pics/GrayCodetrait.png)
+![n-bit格雷码转换为(n-1)-bit格雷码](../pics/GrayCodetrait.png)
 
 根据格雷码的特点，在以下三个条件都为真时，FIFO满标志置起。
 
