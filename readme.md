@@ -63,6 +63,10 @@
 
 [八小时超长视频教你掌握FPGA时序约束！](https://mp.weixin.qq.com/s/V3qCQNCcxpO_PaWso3GWkw)
 
+结合上文整理的[时序分析笔记](./src/docs/时序分析整理.md)
+
+[时序约束策略](https://mp.weixin.qq.com/s/dmJck_7vDd57JFvAL3dFpg)
+
 [FPGA时序分析—vivado篇](https://mp.weixin.qq.com/s/gkXRNblISyUIIrIxLRmLgw)
 
 [UltraFast 设计方法时序收敛快捷参考指南——xilinx文档](./src/docs/c_ug1292-ultrafast-timing-closure-quick-reference.pdf)
