@@ -15,7 +15,7 @@
         - [Glitch Free时钟切换](#glitch-free时钟切换)
     - [验证相关](#验证相关)
         - [SystemVerilog相关](#systemverilog相关)
-        - [DFT相关](#DFT相关)
+        - [DFT相关](#dft相关)
     - [项目相关](#项目相关)
         - [Serdes相关](#serdes相关)
         - [波形捕获率](#波形捕获率)
@@ -61,11 +61,13 @@
 
 [建立时间保持时间经典题目](https://reborn.blog.csdn.net/article/details/100049997?utm_source=app)
 
+两篇总结的很好的时序约束的文章：
+
 [八小时超长视频教你掌握FPGA时序约束！](https://mp.weixin.qq.com/s/V3qCQNCcxpO_PaWso3GWkw)
 
-结合上文整理的[时序分析笔记](./src/docs/时序分析整理.md)
-
 [时序约束策略](https://mp.weixin.qq.com/s/dmJck_7vDd57JFvAL3dFpg)
+
+结合上面一文整理的时序约束笔记: [时序约束笔记](./src/docs/时序约束整理.md)
 
 [FPGA时序分析—vivado篇](https://mp.weixin.qq.com/s/gkXRNblISyUIIrIxLRmLgw)
 
