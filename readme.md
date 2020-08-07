@@ -250,6 +250,8 @@ FPGA开发中，细节的描述总结：[FPGA设计与验证流程](./src/docs/F
 
 [硬件架构的艺术](./src/docs/硬件架构的艺术.pdf)
 
+硬件架构的艺术英文原版：[The Art of Hardware Architecture](./src/docs/The_Art_of_Hardware_Architecture.pdf)
+
 [ASIC高性能数字系统设计](./src/docs/ASIC高性能数字系统设计.pdf)
 
 [UVM实战卷I](./src/docs/UVM实战%20卷Ⅰ.pdf)
