@@ -51,6 +51,12 @@
 
 [FPGA相关知识](./src/docs/FPGA相关知识.pdf)
 
+FPGA开发中，细节的描述总结：[FPGA设计与验证流程](./src/docs/FPGA设计与验证流程.md)
+
+[数字前端和FPGA的技能与区别](http://news.moore.ren/industry/145195.htm)
+
+[数字前端后端的区别、以及流程简介](https://www.cnblogs.com/youngforever/p/3142483.html)
+
 ### STA静态时序分析
 
 [建立时间保持时间笔记](./src/docs/建立时间保持时间.md)
@@ -88,6 +94,10 @@
 [**异步FIFO深度计算**](./src/docs/fifodepthcalculationmadeeasy2.pdf)
 
 [异步FIFO面试题](./src/docs/异步FIFO面试题.md)
+
+这个PPT对跨时钟域几种情况进行了很好的总结：[CDC——讲师卢子威](./src/docs/CDC--讲师卢子威.pptx)
+
+根据上面PPT总结的文档：[CDC总结](./src/docs/CDC总结.md)
 
 [Clifford E. Cummings的异步FIFO设计论文1](./src/docs/Simulation%20and%20Synthesis%20Techniques%20for%20Asynchronous%20FIFO%20Design.pdf)
 
