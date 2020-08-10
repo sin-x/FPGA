@@ -50,11 +50,11 @@ $$
 MTBF=\frac{1}{f_{clk} * f_{data} * x}
 $$
 
-![image-20200807112118594](E:\找工作资料\笔记整理\src\pics\CDC总结.assets\image-20200807112118594.png)
+![image-20200807112118594](..\pics\CDC总结.assets\image-20200807112118594.png)
 
 随着同步时钟频率和数据变化频率的提升，MTBF的值越小，电路出现亚稳态的概率就越高。
 
-![image-20200807112220676](E:\找工作资料\笔记整理\src\pics\CDC总结.assets\image-20200807112220676.png)
+![image-20200807112220676](..\pics\CDC总结.assets\image-20200807112220676.png)
 
 ### 数据保持（快时钟域到慢时钟域）
 
@@ -176,7 +176,7 @@ $$
 
 ![image-20200807002920397](../pics/CDC总结.assets/image-20200807002920397.png)
 
-![image-20200807103947798](E:\找工作资料\笔记整理\src\pics\CDC总结.assets\image-20200807103947798.png)
+![image-20200807103947798](..\pics\CDC总结.assets\image-20200807103947798.png)
 
 * 'req'信号同步至Clk_B
 * 'ack'信号同步至Clk_A
@@ -184,30 +184,30 @@ $$
 
 使能信号控制
 
-![image-20200807104024879](E:\找工作资料\笔记整理\src\pics\CDC总结.assets\image-20200807104024879.png)
+![image-20200807104024879](..\pics\CDC总结.assets\image-20200807104024879.png)
 
-![image-20200807104112145](E:\找工作资料\笔记整理\src\pics\CDC总结.assets\image-20200807104112145.png)
+![image-20200807104112145](..\pics\CDC总结.assets\image-20200807104112145.png)
 
 ### 复位信号的同步
 
 * 同步时序电路保证
 * 复位电平的时长
 
-![image-20200807104249615](E:\找工作资料\笔记整理\src\pics\CDC总结.assets\image-20200807104249615.png)
+![image-20200807104249615](..\pics\CDC总结.assets\image-20200807104249615.png)
 
 ### 无毛刺时钟切换（Glitch Free Clock MUX）
 
 1. 会产生毛刺的时钟切换
 
-   ![image-20200807104327265](E:\找工作资料\笔记整理\src\pics\CDC总结.assets\image-20200807104327265.png)
+   ![image-20200807104327265](..\pics\CDC总结.assets\image-20200807104327265.png)
 
-   ![image-20200807104337739](E:\找工作资料\笔记整理\src\pics\CDC总结.assets\image-20200807104337739.png)
+   ![image-20200807104337739](..\pics\CDC总结.assets\image-20200807104337739.png)
 
 2. 无毛刺的时钟切换
 
-   ![image-20200807104421226](E:\找工作资料\笔记整理\src\pics\CDC总结.assets\image-20200807104421226.png)
+   ![image-20200807104421226](..\pics\CDC总结.assets\image-20200807104421226.png)
 
-   ![image-20200807104436685](E:\找工作资料\笔记整理\src\pics\CDC总结.assets\image-20200807104436685.png)
+   ![image-20200807104436685](..\pics\CDC总结.assets\image-20200807104436685.png)
 
 详细参考这篇博客：[Glitch Free时钟切换技术](https://mp.weixin.qq.com/s/w3Wu7HkSr5v94kHrLvRIcw)
 
@@ -215,10 +215,10 @@ $$
 
 1. 存在信号未同步
 
-   ![image-20200807104639983](E:\找工作资料\笔记整理\src\pics\CDC总结.assets\image-20200807104639983.png)
+   ![image-20200807104639983](..\pics\CDC总结.assets\image-20200807104639983.png)
 
 2. 两个或多个时钟源的数据在同步之前相遇
 
-   ![image-20200807104711308](E:\找工作资料\笔记整理\src\pics\CDC总结.assets\image-20200807104711308.png)
+   ![image-20200807104711308](..\pics\CDC总结.assets\image-20200807104711308.png)
 
-   ![image-20200807104727032](E:\找工作资料\笔记整理\src\pics\CDC总结.assets\image-20200807104727032.png)
+   ![image-20200807104727032](..\pics\CDC总结.assets\image-20200807104727032.png)
