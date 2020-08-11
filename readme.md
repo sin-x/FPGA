@@ -162,7 +162,7 @@ FPGA开发中，细节的描述总结：[FPGA设计与验证流程](./src/docs/F
 
 ### SystemVerilog相关
 
-[SystemVerilog验证](./src/docs/Systemverilog验证.pdf)
+SystemVerilog验证--测试平台编写指南：[SystemVerilog验证](./src/docs/SystemVerilog验证.pdf)
 
 [SystemVerilog覆盖率](https://mp.weixin.qq.com/s/qVSfcVtxHgKDYzXfEelT8w)
 
