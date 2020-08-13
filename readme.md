@@ -24,7 +24,7 @@
         - [经典题目](#经典题目)
         - [笔试题目](#笔试题目)
     - [代码](#代码)
-    - [参考书目清单](#参考书目清单)
+    - [参考书目及帖子清单](#参考书目清单)
 
 <!-- /TOC -->
 
@@ -162,7 +162,9 @@ FPGA开发中，细节的描述总结：[FPGA设计与验证流程](./src/docs/F
 
 ### SystemVerilog相关
 
-SystemVerilog验证--测试平台编写指南：[SystemVerilog验证](./src/docs/SystemVerilog验证.pdf)
+SystemVerilog验证--测试平台编写指南：
+
+[SystemVerilog验证](./src/docs/SystemVerilog验证.pdf)
 
 [SystemVerilog覆盖率](https://mp.weixin.qq.com/s/qVSfcVtxHgKDYzXfEelT8w)
 
@@ -259,3 +261,7 @@ SystemVerilog验证--测试平台编写指南：[SystemVerilog验证](./src/docs
 [UVM实战卷I](./src/docs/UVM实战%20卷Ⅰ.pdf)
 
 [Verilog\_HDL\_那些事儿\_时序篇v2](./src/docs/Verilog_HDL_那些事儿_时序篇v2.pdf)
+
+[数字IC设计前端推荐书籍](https://zhuanlan.zhihu.com/p/105718069)
+
+[SoC设计方法与实现](./src/docs/SoC设计方法与实现_第3版.pdf)
