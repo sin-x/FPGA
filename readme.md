@@ -265,3 +265,13 @@ SystemVerilog验证--测试平台编写指南：
 [数字IC设计前端推荐书籍](https://zhuanlan.zhihu.com/p/105718069)
 
 [SoC设计方法与实现](./src/docs/SoC设计方法与实现_第3版.pdf)
+
+[DarkRISC-V开源代码](https://github.com/darklife/darkriscv)
+
+risc-v介绍博客：[从零开始写RISC-V处理器](https://liangkangnan.gitee.io/2020/04/29/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%86%99RISC-V%E5%A4%84%E7%90%86%E5%99%A8/)
+
+博客对应代码repo: [tinyriscv](https://gitee.com/liangkangnan/tinyriscv)
+
+[综合与时序分析的设计约束中文版](./src/docs/综合与时序分析的设计约束.pdf)
+
+[综合与时序分析的设计约束英文版](./src/docs/Constraining_Designs_for_Synthesis_and_Timing_Analysis.pdf)
