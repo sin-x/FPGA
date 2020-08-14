@@ -272,6 +272,8 @@ risc-v介绍博客：[从零开始写RISC-V处理器](https://liangkangnan.gitee
 
 博客对应代码repo: [tinyriscv](https://gitee.com/liangkangnan/tinyriscv)
 
+[RISC-V手册中文版](./src/docs/RISC-V手册ch.pdf)
+
 [综合与时序分析的设计约束中文版](./src/docs/综合与时序分析的设计约束.pdf)
 
 [综合与时序分析的设计约束英文版](./src/docs/Constraining_Designs_for_Synthesis_and_Timing_Analysis.pdf)
