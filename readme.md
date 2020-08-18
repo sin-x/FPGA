@@ -16,6 +16,7 @@
     - [验证相关](#验证相关)
         - [SystemVerilog相关](#systemverilog相关)
         - [DFT相关](#dft相关)
+    - [SOC相关](#SOC相关)
     - [项目相关](#项目相关)
         - [Serdes相关](#serdes相关)
         - [波形捕获率](#波形捕获率)
@@ -173,6 +174,18 @@ SystemVerilog验证--测试平台编写指南：
 ### DFT相关
 
 [DFT基础](./src/docs/DFT基础.pdf)
+
+### SOC相关
+
+[SoC设计方法与实现_第3版.pdf](./src/docs/SoC设计方法与实现_第3版.pdf)
+
+[DarkRISC-V开源代码](https://github.com/darklife/darkriscv)
+
+risc-v介绍博客：[从零开始写RISC-V处理器](https://liangkangnan.gitee.io/2020/04/29/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%86%99RISC-V%E5%A4%84%E7%90%86%E5%99%A8/)
+
+博客对应代码repo: [tinyriscv](https://gitee.com/liangkangnan/tinyriscv)
+
+[RISC-V手册中文版](./src/docs/RISC-V手册ch.pdf)
 
 ## 项目相关
 
