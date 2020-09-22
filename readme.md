@@ -247,6 +247,8 @@ risc-v介绍博客：[从零开始写RISC-V处理器](https://liangkangnan.gitee
 
 [2020华为海思校招芯片岗笔试解析](https://mp.weixin.qq.com/s/sxnnhUtYUuwzJWaCEyKtQg)
 
+[达尔闻笔试题系列](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg5MDIwNjIwMA==&action=getalbum&album_id=1319397476696244225&scene=173#wechat_redirect)
+
 ## 代码
 
 [Verilog HDL程序设计-135例](./src/docs/Verilog%20HDL程序设计-135例.pdf)
