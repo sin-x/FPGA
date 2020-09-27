@@ -191,6 +191,8 @@ risc-v介绍博客：[从零开始写RISC-V处理器](https://liangkangnan.gitee
 
 [计算机组成原理实验与参考实现](https://github.com/lvyufeng/step_into_mips)
 
+实现简单MIPS五级流水CPU对应视频：[教你写一个简单的CPU](https://www.bilibili.com/video/BV1pK4y1C7es)
+
 ## 项目相关
 
 ### Serdes相关
