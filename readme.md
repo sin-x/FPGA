@@ -298,3 +298,7 @@ risc-v介绍博客：[从零开始写RISC-V处理器](https://liangkangnan.gitee
 [综合与时序分析的设计约束中文版](./src/docs/综合与时序分析的设计约束.pdf)
 
 [综合与时序分析的设计约束英文版](./src/docs/Constraining_Designs_for_Synthesis_and_Timing_Analysis.pdf)
+
+### 工具篇
+
+[notepad++使用](https://blog.csdn.net/qq_38151438/article/details/106587974)
